@@ -1,0 +1,7 @@
+firstNum=int(input("Enter first number:"))
+secondNum=int(input("Enter second number:"))
+print(f"The number before swapping./n first number='{firstNum}/n and second number='{secondNum},")
+temporary=firstNum
+firstNum=secondNum
+secondNum=temporary
+print(f"The number after swapping./n first number="{firstNum}/n and second number="{second number}.")
